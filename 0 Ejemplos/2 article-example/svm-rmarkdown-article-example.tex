@@ -94,7 +94,7 @@
 \title{A Pandoc Markdown Article Starter and
 Template \thanks{Replication files are available on the author's Github
 account (\url{http://github.com/svmiller}). \textbf{Current version}:
-mayo 29, 2021; \textbf{Corresponding author}:
+Junio 13, 2021; \textbf{Corresponding author}:
 \href{mailto:svmille@clemson.edu}{\nolinkurl{svmille@clemson.edu}}.}  }
  
 
@@ -590,7 +590,7 @@ Within that code display, I enter my R code like this.
 \FunctionTok{library}\NormalTok{(stevemisc)}
 \FunctionTok{data}\NormalTok{(uniondensity)}
 
-\NormalTok{M1 }\OtherTok{\textless{}{-}} \FunctionTok{lm}\NormalTok{(union }\SpecialCharTok{\textasciitilde{}}\NormalTok{ left }\SpecialCharTok{+}\NormalTok{ size }\SpecialCharTok{+}\NormalTok{ concen, }\AttributeTok{data =}\NormalTok{ uniondensity)}
+\NormalTok{M1 }\OtherTok{\textless{}{-}} \FunctionTok{lm}\NormalTok{(union }\SpecialCharTok{\textasciitilde{}}\NormalTok{ left }\SpecialCharTok{+}\NormalTok{ size }\SpecialCharTok{+}\NormalTok{ concen, }\AttributeTok{data=}\NormalTok{uniondensity)}
 
 \FunctionTok{library}\NormalTok{(arm)}
 \FunctionTok{coefplot}\NormalTok{(M1)}
@@ -613,7 +613,7 @@ the code runs within R. Observe.
 \FunctionTok{library}\NormalTok{(stevedata)}
 \FunctionTok{data}\NormalTok{(uniondensity)}
 
-\NormalTok{M1 }\OtherTok{\textless{}{-}} \FunctionTok{lm}\NormalTok{(union }\SpecialCharTok{\textasciitilde{}}\NormalTok{ left }\SpecialCharTok{+}\NormalTok{ size }\SpecialCharTok{+}\NormalTok{ concen, }\AttributeTok{data =}\NormalTok{ uniondensity)}
+\NormalTok{M1 }\OtherTok{\textless{}{-}} \FunctionTok{lm}\NormalTok{(union }\SpecialCharTok{\textasciitilde{}}\NormalTok{ left }\SpecialCharTok{+}\NormalTok{ size }\SpecialCharTok{+}\NormalTok{ concen, }\AttributeTok{data=}\NormalTok{uniondensity)}
 
 \FunctionTok{library}\NormalTok{(arm)}
 \FunctionTok{coefplot}\NormalTok{(M1)}
@@ -637,9 +637,9 @@ next page).
 \NormalTok{data }\OtherTok{\textless{}{-}} \FunctionTok{data}\NormalTok{(uniondensity)}
 \FunctionTok{library}\NormalTok{(stargazer)}
 
-\NormalTok{M1 }\OtherTok{\textless{}{-}} \FunctionTok{lm}\NormalTok{(union }\SpecialCharTok{\textasciitilde{}}\NormalTok{ left }\SpecialCharTok{+}\NormalTok{ size }\SpecialCharTok{+}\NormalTok{ concen, }\AttributeTok{data =}\NormalTok{ uniondensity)}
+\NormalTok{M1 }\OtherTok{\textless{}{-}} \FunctionTok{lm}\NormalTok{(union }\SpecialCharTok{\textasciitilde{}}\NormalTok{ left }\SpecialCharTok{+}\NormalTok{ size }\SpecialCharTok{+}\NormalTok{ concen, }\AttributeTok{data=}\NormalTok{uniondensity)}
 
-\FunctionTok{stargazer}\NormalTok{(M1, }\AttributeTok{title =} \StringTok{"A Handsome Table"}\NormalTok{, }\AttributeTok{header =} \ConstantTok{FALSE}\NormalTok{)}
+\FunctionTok{stargazer}\NormalTok{(M1, }\AttributeTok{title=}\StringTok{"A Handsome Table"}\NormalTok{, }\AttributeTok{header=}\ConstantTok{FALSE}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
